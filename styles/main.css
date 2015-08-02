@@ -197,13 +197,19 @@ form button:hover {
     text-align: center;
 }
 
-#section1 #slide2 h1 {
+#section1 #slide1 p {
     font-size: 20px; 
     margin-left: 10%; 
     margin-right: 10%;
 }
 
-#section1 #slide3 h1 {
+#section1 #slide2 p {
+    font-size: 20px; 
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+#section1 #slide3 p {
     font-size: 20px; 
     margin-left: 10%; 
     margin-right: 10%;
@@ -213,4 +219,13 @@ form button:hover {
     font-size: 40px;
     color: #77ACCC;
     text-align: center;
+}
+
+#section0 .scroll {
+    background: none;
+    border: none;
+    color: #77ACCC;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
