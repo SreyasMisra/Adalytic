@@ -189,6 +189,7 @@ form button:hover {
 }
 .round-button:hover {
     background: #90DADA;
+    text-decoration: none;
 }
 
 #section1 .slide {
