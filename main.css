@@ -1,0 +1,239 @@
+<!-- Compatibility check with other browsers
+
+body ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #EFF7E8;
+    font-weight: 500;
+}
+
+body :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F7EEE8;
+    opacity: 1;
+    font-weight: 500;
+}
+
+body ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #EFF7E8;
+    opacity: 1;
+    font-weight: 500;
+}
+
+body :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #EFF7E8;
+    font-weight: 500;
+}-->
+
+<!--color theme 
+#77ACCC
+white
+-->
+
+body :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F7EEE8;
+    opacity: 1;
+    font-weight: 500;
+}
+
+body ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #EFF7E8;
+    opacity: 1;
+    font-weight: 500;
+}
+
+body :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #EFF7E8;
+    font-weight: 500;
+}
+
+body ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+    font-weight: 300;
+}
+
+.section {
+    text-align: center;
+}
+
+form {
+    position: relative;
+    padding-top: 10px;
+}
+
+form input { <!-- enter email -->
+    appearance: none;
+    outline: 0;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    background-color: #77ACCC;
+    padding: 5px 10px;
+    width: 350px;
+    border-radius: 3px;
+    margin: auto auto auto auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+form input:hover {
+    background-color: #90DADA;
+}
+
+form input:focus {
+    background-color: #D1E5F0;
+    width: 300px;
+    color: #77ACCC;
+}
+
+form button { <!-- subscribe button -->
+    appearance: none;
+    outline: 0;
+    background-color: #77ACCC;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+form button:hover {
+    background-color: #90DADA;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+    
+#section0 .brand {
+    color: #77ACCC;
+}
+
+#section0 .brand h1 {
+    font-size: 80px;
+    color: #77ACCC;
+    font-family: 'Raleway', sans-serif;
+}
+
+#section0 .brand h2 {
+    font-size: 30px;
+    color: #77ACCC;
+    font-family: 'Raleway', sans-serif;
+}
+
+#section0 .success {
+    font-size: 20px;
+    color: #77ACCC;
+    font-family: 'Raleway', sans-serif;
+}
+
+#section0 .error {
+    font-size: 20px;
+    color: #77ACCC;
+    font-family: 'Raleway', sans-serif;
+}
+
+#section0 #mySelect {
+    color: white;
+    background-color: #77ACCC;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: 200px;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    height: 40px;
+}
+
+#section0 .dropdown {
+    padding-top: 5px;
+}
+
+#section0 {
+    background: url("../background.jpg");
+    background-size: 100% 100%;
+}
+
+.round-button-circle {
+	width: 100%;
+	height:10%;
+	padding-bottom: 50%;
+    border-radius: 50%;
+	border:3px solid white;
+    overflow:hidden;
+    background: #77ACCC;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+}
+.round-button-circle:hover {
+	background:#90DADA;
+}
+.round-button a {
+    display: block;
+	width:50%;
+	padding-top:10%;
+    padding-bottom:10%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align: center;
+	color: white;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#driverbutton, #advertiserbutton {
+    display:inline;
+}
+
+#driverbutton {
+    float: left;
+}
+
+#advertiserbutton {
+    float: right;
+}
+
+#section1 .slide {
+    color: #77ACCC;
+    text-align: center;
+}
+
+#section1 #slide2 h1 {
+    font-size: 20px; 
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+#section1 #slide3 h1 {
+    font-size: 20px; 
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+#section2 h1 {
+    font-size: 40px;
+    color: #77ACCC;
+    text-align: center;
+}
