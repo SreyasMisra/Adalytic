@@ -168,16 +168,17 @@
     Parse.initialize("Jh4ZCeJAasAGEKl9VKhy6OxB8f7VZgImr0cdCXgu", "ZPRVBXEVcr3QT8G33ZUI4RRABbn9MNQKA980FW7w");
     var subbtn = document.getElementById('subscribe');
     subbtn.addEventListener('click', function(event) {
+        event.preventDefault();
     	var SubObject = Parse.Object.extend("SubObject");
     	var subObj = new SubObject();
         subObj.save({Email: emailtext.value, User: mySelect.value}, {
-      		success: function(subObj) {
+      		success: function(object) {
         		$(".success").fadeIn('slow');
                 $("#subscribe").fadeOut();
                 $("#emailtext").fadeOut();
                 $("#mySelect").fadeOut();
       		},
-      		error: function(subObj, error) {
+      		error: function(model, error) {
         		$(".error").show();
       		}
 	      });
