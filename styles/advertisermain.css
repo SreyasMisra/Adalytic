@@ -1,0 +1,36 @@
+body{
+	font-family: "Raleway", "sans-serif";
+}
+div.Process{
+	text-align: center;
+	color: #244F6B;
+	font-family: "Raleway", "sans-serif";
+	position: relative;
+
+	top: -100px;
+}
+
+div.row{
+	text-align: center;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+	color: #244F6B;
+}
+
+p {
+	color: #77ACCC;
+	padding-top:20px;
+padding-bottom:10px;
+	display: block;
+	font-size: 15px;
+	
+}
+
